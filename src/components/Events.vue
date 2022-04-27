@@ -55,7 +55,7 @@ export default {
         const axios = require('axios').default;
         axios
         /* Get event data */
-        .get('https://t-bridge.s3.eu-west-1.amazonaws.com/events.json')
+        .get('http://localhost:8081/events.json')
         .then(response => (this.posts = response))
     },
 
