@@ -4,7 +4,7 @@
 ```
 git clone https://github.com/martin714/ad-vue.git
 npm install
-npm run serve
+npm run serve -- --port 8081
 ```
 
 ### Project View
