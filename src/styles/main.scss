@@ -1,10 +1,12 @@
+$sky-blue: #008bdb;
+$white: #fff;
 
 body{
     background: #f0f0f0;
 }
 
 header{
-    background: #fff;
+    background: $white;
 }
 
 .elipse{
@@ -16,14 +18,14 @@ header{
 }
 
 .skyButton{
-    color: #fff;
-    background-color: #008bdb;
-    border-color: #008bdb;
+    color: $white;
+    background-color: $sky-blue;
+    border-color: $sky-blue;
 }
 
 .accordion-button:not(.collapsed) {
     color: #000;
-    background-color: #fff;
+    background-color: $white;
 }
 
 .card{
