@@ -13,7 +13,6 @@
 
                     <label for="keywords" class="py-2 fw-bold">Keywords</label>
                     <input class="form-control" type="text" :value="modelValue" @input="$emit('update:modelValue', $event.target.value)" placeholder="Search Events" />
-                    <!-- <input class="form-control" type="text" v-model="search" placeholder="Search Events" v-on:input="searchText = $event.target.value"> -->
                     <span class="fa fa-search searchspan"></span>
                     
                     <div class="row mt-2">

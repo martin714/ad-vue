@@ -13,10 +13,11 @@
                 <div class="card-body">
                     <h5 class="card-title fw-bold">{{ event.title }}</h5>
                         <div v-for="dateTime in event.instances" :key="dateTime.id">
+                            <!-- Use moments Js https://momentjs.com/ on dateTime.date_time-->
                             <p class="card-text fw-bold my-2"><span id="dateNew">{{ moment(dateTime.date_time).format(" ddd Do MMM YYYY" + " | " + "LT") }}</span></p>
                         </div>
                     <p id="description" class="card-text elipse"><span v-html=event.short_description></span></p>
-                    <a href="#" class="btn btn-primary w-100 skyButton py-3" data-bs-toggle="modal" data-bs-target="#exampleModal">Book Now</a>
+                    <a href="#" class="btn btn-primary w-100 skyButton py-3">Book Now</a>
                 </div>
             </div>
 
