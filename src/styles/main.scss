@@ -1,5 +1,6 @@
-$sky-blue: #008bdb;
+$sky-blue: #5142f1;
 $white: #fff;
+$black: #000;
 
 body{
     background: #f0f0f0;
@@ -7,6 +8,15 @@ body{
 
 header{
     background: $white;
+}
+
+.headerLinks {
+    color: $black;
+    text-decoration: none;
+
+    &:hover{
+        color: $sky-blue;
+    }
 }
 
 .elipse{
@@ -24,7 +34,7 @@ header{
 }
 
 .accordion-button:not(.collapsed) {
-    color: #000;
+    color: $black;
     background-color: $white;
 }
 
@@ -37,7 +47,7 @@ header{
     margin-right: 13px;
     margin-top: -27px;
     position: relative;
-    color: #000;
+    color: $black;
     z-index: 1;
 }
 

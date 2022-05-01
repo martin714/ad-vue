@@ -7,8 +7,8 @@
             </div>
             <div class="col-12 col-md-3">
                 <div class="d-flex justify-content-end">
-                    <span class="px-3"><i class="fa fa-user me-3"></i>Sign In</span>
-                    <span class="px-3"><i class="fa fa-shopping-basket me-3" aria-hidden="true"></i>Basket</span>
+                    <span class="px-3"><a class="headerLinks" href="#"><i class="fa fa-user me-3"></i>Sign In</a></span>
+                    <span class="px-3"><a class="headerLinks" href="#"><i class="fa fa-shopping-basket me-3" aria-hidden="true"></i>Basket</a></span>
                 </div>
             </div>
         </div>
